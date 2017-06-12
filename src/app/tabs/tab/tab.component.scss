@@ -1,6 +1,6 @@
-
+@import '../../variable';
 .tab_drawer_heading { display: none !important;}
-@media screen and (max-width: 480px) {
+@media screen and (max-width: $mediaMaxWithTabsResponsive) {
   .tabs {
     display: none;
   }
