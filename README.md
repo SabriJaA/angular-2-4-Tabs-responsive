@@ -35,7 +35,10 @@ To install this component, follow the procedure:
     })
     export class MyTestAppModule {}
     ```
-
+3. Create a file "variable.scss" in the folder "app" and insert :
+```scss
+  $mediaMaxWithTabsResponsive: 680px;
+```
 ## Usage
 
 Use the following snippet inside your template. For example:

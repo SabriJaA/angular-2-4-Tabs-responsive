@@ -1,10 +1,10 @@
 import {Component, Input, OnInit, ElementRef, Inject, ViewChild} from '@angular/core';
-import {Tab} from './tab.interface';
-import {TabsComponent} from './tabs.component';
+import {Tab} from '../interface/tab.interface';
+import {TabsComponent} from '../tabs/tabs.component';
 
 @Component({
   selector: 'app-tab',
-  templateUrl: 'tab.component.html',
+  templateUrl: './tab.component.html',
   styleUrls: ['./tab.component.scss']
 })
 export class TabComponent implements OnInit, Tab {

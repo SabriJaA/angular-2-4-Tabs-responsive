@@ -3,11 +3,11 @@ import {
   EventEmitter,
   Output,
 } from '@angular/core';
-import {Tab} from './tab.interface';
+import {Tab} from '../interface/tab.interface';
 
 @Component({
   selector: 'app-tabs',
-  templateUrl: 'tabs.component.html',
+  templateUrl: './tabs.component.html',
   styleUrls: ['./tabs.component.scss']
 })
 export class TabsComponent {
