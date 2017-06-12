@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+// 1. Vendors Normalize
+@import
+'vendor/normalize/normalize';
+
+// 2. Configuration and helpers
+@import
+'utils/variables',
+'utils/functions',
+'utils/mixins';
+
+@import
+'base/base';
+
+.colorRed{
+  color: red;
+}
+
+.other {
+  border: 1px solid #000 !important;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  min-width: 20%;
+  list-style-type: none;
+  margin: 0;
+  display: block !important;
+  cursor: pointer;
+}
+
+app-tabs{
+  background-color: #FFFFFF;
+}
+
+.white{
+  background-color: white;
+}

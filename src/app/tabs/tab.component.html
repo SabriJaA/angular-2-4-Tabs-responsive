@@ -1,0 +1,10 @@
+<!--
+<div [hidden]="!active">
+    <ng-content></ng-content>
+</div>-->
+<li class="tab_drawer_heading {{classLiCss}}" [ngClass]="{'active ': selected }" (click)="selectTab()">
+  <a (click)="selectTab()" class="{{classLinkCss}}">{{tabTitle}}</a>
+</li>
+<div [hidden]="!selected">
+  <ng-content></ng-content>
+</div>
