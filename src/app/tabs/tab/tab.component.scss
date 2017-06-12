@@ -1,4 +1,5 @@
-@import '../../variable';
+// FOR DEV @import '../../variable';
+@import '../../../../../../../src/app/variable';
 .tab_drawer_heading { display: none !important;}
 @media screen and (max-width: $mediaMaxWithTabsResponsive) {
   .tabs {
